@@ -3,7 +3,7 @@ terragrunt = {
     backend = "s3"
 
     config {
-      encyrpt = true
+      encrypt = true
       bucket = "tf-state-${get_aws_account_id()}-${get_env("REGION", "eu-central-1")}"
       region = "${get_env("REGION", "eu-central-1")}"
       key = "${path_relative_to_include()}/terraform.state"
