@@ -1,6 +1,6 @@
 terragrunt = {
   terraform {
-    source = "git::ssh://git@code.siemens.com/mindsphere-mainline/ist-infra/TerraformBuildingBlocks/monitoring/instance-monitoring.git?ref=feature/new_features"
+    source = "git::https://hmerac:yamyame2626@github.com/Hmerac/Pindiet-InfrastructureModules.git//ecs?ref=master"
   }
   include {
     path = "${find_in_parent_folders()}"
