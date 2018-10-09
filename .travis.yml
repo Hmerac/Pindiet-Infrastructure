@@ -1,8 +1,6 @@
 # Start Trusty Distribution
 dist: trusty
-
-# Speed-up processes by setting sudo to false
-sudo: false
+sudo: true
 
 # Disable clone logs
 git:
