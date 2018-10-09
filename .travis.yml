@@ -13,6 +13,7 @@ language: generic
 
 # Install Terraform and Terragrunt
 before_script:
+- ssh -T -oStrictHostKeyChecking=accept-new git@github.com || true
 - curl -sLo /tmp/terraform.zip https://releases.hashicorp.com/terraform/0.11.8/terraform_0.11.8_linux_amd64.zip
 - curl -sLo /tmp/terragrunt https://github.com/gruntwork-io/terragrunt/releases/download/v0.17.0/terragrunt_linux_amd64
 - unzip /tmp/terraform.zip -d /tmp

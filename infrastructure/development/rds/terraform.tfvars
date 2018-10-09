@@ -1,6 +1,6 @@
 terragrunt = {
   terraform {
-    source = "git::ssh@github.com:Hmerac/Pindiet-InfrastructureModules.git//platform/rds?ref=master"
+    source = "git::git@github.com:Hmerac/Pindiet-InfrastructureModules.git//platform/rds?ref=master"
   }
   include {
     path = "${find_in_parent_folders()}"
