@@ -11,7 +11,7 @@ terragrunt = {
 }
 
 vpc_name              = "MainVPC"
-environment           = "Development"
+environment           = "development"
 availability_zones    = ["eu-central-1a", "eu-central-1b"]
 vpc_state_bucket      = "tf-state-050369958887-eu-central-1"
 vpc_state_key         = "infrastructure/development/vpc/terraform.state"
