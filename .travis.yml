@@ -18,8 +18,8 @@ before_script:
 - unzip /tmp/terraform.zip -d /tmp
 - mv /tmp/terraform ~/bin
 - mv /tmp/terragrunt ~/bin
-- chmod +x /tmp/terraform
-- chmod +x /tmp/terragrunt
+- chmod +x ~/bin/terraform
+- chmod +x ~/bin/terragrunt
 - export PATH="~/bin:$PATH"
 
 jobs:
