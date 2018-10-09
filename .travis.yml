@@ -4,10 +4,6 @@ dist: trusty
 # Speed-up processes by setting sudo to false
 sudo: false
 
-# Disable clone logs
-git:
-  quiet: true
-
 # Generic language for Terraform and Terragrunt
 language: generic
 
