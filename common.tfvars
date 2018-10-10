@@ -1,3 +1,3 @@
 region = "eu-central-1"
 
-cluster_name      = "PindietCore"
+cluster_name      = "Pindiet-MainCluster"
