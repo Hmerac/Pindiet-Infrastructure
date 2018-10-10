@@ -10,4 +10,4 @@ terragrunt = {
   }
 }
 
-environment       = "Development"
+environment       = "development"
