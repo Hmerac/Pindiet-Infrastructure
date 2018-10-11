@@ -13,5 +13,5 @@ terragrunt = {
 environment           = "development"
 vpc_state_bucket      = "tf-state-050369958887-eu-central-1"
 vpc_state_key         = "infrastructure/development/vpc/terraform.state"
-bastion_name          = "Bastion"
+bastion_name          = "bastion"
 bastion_keypair_name  = "bastion"
